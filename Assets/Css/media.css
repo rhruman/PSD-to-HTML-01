@@ -1,0 +1,21 @@
+@media (max-width:1199px) {
+    
+}
+
+
+@media (max-width:992px) {
+    .navbar-collapse{
+        background-color: crimson;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        top: calc(100%);
+        z-index: 999999999999999999999999;
+    
+    }
+    .navbar-nav .nav-item {
+        width: max-content;
+        margin:0 auto;
+        margin-top: 20px;
+    }
+}
